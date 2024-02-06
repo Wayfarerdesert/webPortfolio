@@ -1,0 +1,256 @@
+{
+    "navBar": [
+        {
+            "dataHome": "Home",
+            "dataAbout": "About",
+            "dataPortfolio": "Portfolio",
+            "dataSkillset": "Skill Set",
+            "dataContact": "Contact"
+        }
+    ],
+    "about": [
+        {
+            "presentation": "I entered the technological field in search of professional development in an innovative and dynamic environment. I face each challenge by adapting and acquiring new knowledge according to market needs.",
+            "training": "Education",
+            "certifications": "Certifications",
+            "resume": "Resume ",
+            "link": "./assets/data/cv/CV_FacundoSantana_eng.pdf"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Fundación Esplai",
+            "url": "https://fundacionesplai.org/",
+            "area": "Cybersecurity",
+            "studyType": "Master",
+            "startDate": "2024-01-15",
+            "endDate": "2024-05-02",
+            "score": "4.0",
+            "courses": [
+                "Cybersecurity training program"
+            ]
+        },
+        {
+            "institution": "Fundación Esplai",
+            "url": "https://fundacionesplai.org/",
+            "area": "Software Development",
+            "studyType": "Bootcamp",
+            "startDate": "2023-02-27",
+            "endDate": "2023-07-30",
+            "score": "4.0",
+            "courses": [
+                "Training program in AI & Machine Learning with Python"
+            ]
+        },
+        {
+            "institution": "Mastermind Academy",
+            "url": "https://mastermind.ac/",
+            "area": "Desarrollo",
+            "studyType": "Online course",
+            "startDate": "2023",
+            "endDate": "2023",
+            "score": "4.0",
+            "courses": [
+                "Introduction to Data Science with Python"
+            ]
+        },
+        {
+            "institution": "Consorci PUE",
+            "url": "https://sepe.pue.es/",
+            "area": "Software Development",
+            "studyType": "Live Virtual Class (LVC)",
+            "startDate": "2022-09-05",
+            "endDate": "2023-09-19",
+            "score": "4.0",
+            "courses": [
+                "Python programming fundamentals Official PCAP course from the Python Institute"
+            ]
+        },
+        {
+            "institution": "Mastermind Academy",
+            "url": "https://mastermind.ac/",
+            "area": "Informática",
+            "studyType": "Online course",
+            "startDate": "2022-05-01",
+            "endDate": "2022-05-30",
+            "score": "4.0",
+            "courses": [
+                "Introduction to Linux"
+            ]
+        },
+        {
+            "institution": "Mastermind Academy",
+            "url": "https://mastermind.ac/",
+            "area": "Desarrollo",
+            "studyType": "Online course",
+            "startDate": "2023-02-01",
+            "endDate": "2023-02-01",
+            "score": "4.0",
+            "courses": [
+                "Introduction to Git"
+            ]
+        },
+        {
+            "institution": "Universidad Provincial de Córdoba",
+            "url": "https://upc.edu.ar/fad/escuela-spilimbergo/",
+            "area": "Facultad de Arte y Diseño",
+            "studyType": "Degree",
+            "startDate": "2014-02-27",
+            "endDate": "2016-12-20",
+            "score": "4.0",
+            "courses": [
+                "Higher Degree in Photography"
+            ]
+        },
+        {
+            "institution": "Universidad Nacional de Córdoba",
+            "url": "https://faud.unc.edu.ar/",
+            "area": "Arquitectura",
+            "studyType": "Degree",
+            "startDate": "2011-02-20",
+            "endDate": "2013-12-18",
+            "score": "4.0",
+            "courses": [
+                "Architecture Degree"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Photography portfolio",
+            "img": "photo-portfolio",
+            "description": "A tour of my photographic work in different areas.",
+            "technologies": [
+                {
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/PhotographyPortfolio",
+            "link": ""
+        },
+        {
+            "name": "Weather App",
+            "img": "weather-app",
+            "description": "This is a simple weather app built with Vanilla JavaScript using the Vite build tool.",
+            "technologies": [
+                {
+                    "name": "html5",
+                    "type": "brands"
+                },
+                {
+                    "name": "css3-alt",
+                    "type": "brands"
+                },
+                {
+                    "name": "js",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/weatherApp",
+            "link": "https://weather-app-alpha-lilac-44.vercel.app/"
+        },
+        {
+            "name": "React To-Do App",
+            "img": "to_do_app",
+            "description": "This is a simple To-Do List application built with React and Vite.js. The app allows users to create, save, and delete tasks as needed.",
+            "technologies": [
+                {
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
+            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
+        },
+        {
+            "name": "iPhone Calculator",
+            "img": "iphone-calculator",
+            "description": "This is a simple web calculator application designed to mimic the appearance and functionality of a calculator on an iPhone.",
+            "technologies": [
+                {
+                    "name": "html5",
+                    "type": "brands"
+                },
+                {
+                    "name": "css3-alt",
+                    "type": "brands"
+                },
+                {
+                    "name": "js",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/Iphone_calculator",
+            "link": "https://wayfarerdesert.github.io/Iphone_calculator/"
+        },
+        {
+            "name": "Desktop Calculator",
+            "img": "py-calculator",
+            "description": "This is a simple calculator application built using Python and Tkinter.",
+            "technologies": [
+                {
+                    "name": "python",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/Calculator_Tk",
+            "link": ""
+        },
+        {
+            "name": "Smart Tech",
+            "img": "smart_tech",
+            "description": "Web application project to maximize efficient advertising impact",
+            "technologies": [
+                {
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
+                    "type": "brands"
+                },
+                {
+                    "name": "python",
+                    "type": "brands"
+                },
+                {
+                    "name": "node-js",
+                    "type": "brands"
+                },
+                {
+                    "name": "database",
+                    "type": "solid"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/Smart_Tech",
+            "link": ""
+        }
+    ],
+    "contactForm": [
+        {
+            "name": "Name",
+            "email": "email",
+            "placeholder": "your@email.com",
+            "affair": "Affair",
+            "message": "Message",
+            "sendButton": "Send"
+        }
+    ],
+    "footer": [
+        {
+            "developed": "Developed and designed by",
+            "rights": "All rights reserved",
+            "made": "Made with",
+            "place": "in Barcelona"
+        }
+    ]
+}

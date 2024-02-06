@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/logo/favicon.ico" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bgPattern.css">
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/7b4308f254.js" crossorigin="anonymous"></script>
+
+    <!-- EmailJs -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+    emailjs.init('jwIUtBZGozXmnvbn-')
+    </script>
+    <!-- EmailJs -->
+
+    <title>Facundo Santana</title>
+</head>
+
+<body class="darkTheme">
+    <header id="top">
+        <!-- NavBar------------------------------>
+        <div class="logo">
+            <a href="#home"><img class="logo-imgLight" src="./assets/img/logo/logoWebLight.png" alt="LOGO"></a>
+
+            <a href="#home"><img class="logo-imgDark" src="./assets/img/logo/logoWebDark.png" alt="LOGO"></a>
+        </div>
+
+        <nav id="navbar">
+            <ul id="navList">
+                <a href="#home" class="active" data-home></a>
+                <a href="#about" data-about></a>
+                <a href="#portfolio" data-portfolio></a>
+                <a href="#skillset" data-skillset></a>
+                <a href="#contact" data-contact></a>
+            </ul>
+        </nav>
+
+        <div id="config">
+            <div class="languages">
+                <p id="en" class="english" onclick="changeLanguage('en')">EN</p>
+                <p><span>|</span></p>
+                <p id="es" class="spanish" onclick="changeLanguage('es')">ES</p>
+            </div>
+            <button onclick="changeTheme()" id="themeButton"></button>
+        </div>
+
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <!-- Home  --------------------------------->
+    <section id="home">
+        <div class="mainHome">
+            <div class="home-text">
+                <h1 class="animate__animated animate__backInDown">[Facundo Santana]</h1>
+                <p class="subtitle"><span class="sub_animation">Web Developer</span></p>
+            </div>
+            <div class="socialWrapper">
+                <ul class="socialHome">
+                    <a href="https://www.linkedin.com/in/facundo-santana/" target="_blank"><i class="social-logo-hero fa-brands fa-linkedin-in fa-2x"></i></a>
+                    <a href="https://github.com/Wayfarerdesert" target="_blank"><i class="social-logo-hero fa-brands fa-github fa-2x"></i></a>
+                    <a id="emailMe" href="mailto:facundosantana.tm@gmail.com"><i class="social-logo-hero fa-solid fa-envelope fa-2x"></i></a>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Section  ------------------------->
+    <!-- About------------------------------>
+    <section id="about" class="sub-section-II">
+        <br>
+        <h2 id="dataAbout" class="section-title hidden" data-about></h2>
+        <div class="sub-section aboutSection">
+            <div class="aboutWrapper">
+                <!-- <p id="presentation"></p> -->
+                <p data-presentation></p>
+                <div class="portrait-container">
+                    <img class="portrait" loading="lazy" src="./assets/img/portrait.png" alt="Portrait">
+                    <div class="btn-cv"><a href="" target="_blank" title="facundoSantanaCV" data-resume></a><i class="fa-solid fa-download"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="training">
+                    <h4><strong data-training></strong> :</h4>
+                    <p id="education" data-education></p>
+                </div>
+                <div id="certificates">
+                    <h4><strong data-certifications></strong> :</h4>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2f170e4c-a89e-4339-a06c-ca084cb17008" data-share-badge-host="https://www.credly.com" style="border: none"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b8db0041-0401-4f07-a079-2618fb69fe15" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="29de32ec-a1d9-4650-9785-5009bd8786a1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="52e727b7-eac9-4201-871f-b42b5e567315" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1095a7b1-262e-4bfa-bd27-d25200f539d8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                </div>
+            </div>
+            <div class="btn-cvPhone"><a href="" target="_blank" title="facundoSantanaCV" data-resume-phone></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -------------------------->
+    <section id="portfolio" class="sub-section">
+        <h2 class="section-title hidden" data-portfolio></h2>
+
+        <div class="portfolioWrapper" data-project-card>
+            <div class="card">
+                <h4>Portfolio fotográfico</h4>
+
+                <img src="./assets/img/portfolio/photo-portfolio.webp" alt="Img 1" class="img">
+                <p>Un recorrido de mi trabajo fotográfico en diferentes areas.</p>
+
+                <div class="technology-card">
+                    <div>
+                        <i class="fa-brands fa-js fa-2x"></i>
+                        <i class="fa-brands fa-react fa-2x"></i>
+                    </div>
+                    <div>
+                        <a href="" target="_blank"><i class="social-logo fa-brands fa-github fa-2x"></i></a>
+                        <a href="" target="_blank"><i class="social-logo fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <template id="card-template">
+                <div class="card">
+                    <h4 data-title></h4>
+
+                    <img data-img src="" alt="Img 1" class="img" onclick="toggleClickedImg(this)">
+                    <p data-description></p>
+
+                    <div class="technology-card">
+                        <div class="tech-wrapper">
+                            <i data-technologies></i>
+                        </div>
+                        <div class="link-wrapper">
+                            <a data-code href="" target="_blank"><i class="social-logo fa-brands fa-github fa-2x"></i></a>
+                            <a data-link href="" target="_blank"><i class="social-logo fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </section>
+
+    <!-- SKILLSET------------------------------>
+    <section id="skillset" class="sub-section-II middle-section">
+        <h2 class="section-title hidden" data-skillset></h2>
+
+        <!-- skillsetContaier -->
+        <div class="skillsetContaier" >
+            <div>
+                <div class="technology-container">
+                    <div class="technology-card">
+                        <i class="fa-brands fa-html5 fa-3x"></i>
+                    </div>
+                    <div class="technology-card">
+                        <i class="fa-brands fa-css3-alt fa-3x"></i>
+                    </div>
+                    <div class="technology-card">
+                        <i class="fa-brands fa-js fa-3x"></i>
+                    </div>
+                    <div class="technology-card">
+                        <i class="fa-brands fa-bootstrap fa-3x"></i>
+                    </div>
+                    <div class="technology-card">
+                        <i class="fa-brands fa-react fa-3x"></i>
+                    </div>
+                    <div class="technology-card ">
+                        <i class="fa-brands fa-python fa-3x"></i>
+                    </div>
+                    <div class="technology-card ">
+                        <i class="fa-solid fa-database fa-3x"></i>
+                    </div>
+                    <div class="technology-card">
+                        <i class="fa-brands fa-git-alt fa-3x"></i>
+                    </div>
+                    <div class="technology-card">
+                        <i class="fa-brands fa-github fa-3x"></i>
+                    </div>
+                    <div class="technology-card">
+                        <i class="fa-brands fa-linux fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO------------------------------>
+    <section id="contact" class="sub-section middle-section">
+        <h2 class="section-title hidden" data-contact></h2>
+
+        <div class="contactWrapper">
+            <div class="contactForm">
+                <form id="form" method="post" action="./assets/php/contact.php">
+                    <p id="nameForm">
+                        <label for="name"><span>*</span><i data-name></i> :</label><br>
+                        <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        minlength="2"
+                        maxlength="30"
+                        title="Ingresa un nombre valido"
+                        required><br>
+                    </p>
+                    <p id="emailform">
+                        <label for="email"><span>*</span>email :</label><br>
+                        <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="tu@correo.com"
+                        required><br>
+                    </p>
+                    <p id="affairForm">
+                        <label for="affair"><span>*</span><i data-affair></i> :</label><br>
+                        <input
+                        type="text"
+                        name="affair"
+                        id="affair"
+                        minlength="2"
+                        maxlength="30"
+                        required><br>
+                    </p>
+                    <p id="messageForm" class="block">
+                        <label><span>*</span><i data-message></i> :</label><br>
+                        <textarea
+                        name="message"
+                        id="message"
+                        cols="30"
+                        rows="3"
+                        minlength="10"
+                        maxlength="500"
+                        required></textarea><br>
+                    </p>
+                    <div class="g-recaptcha" data-sitekey="6LfPNWEpAAAAAOfHtNtqjpDBLRmtHp2-8ymz1m2N"></div>
+
+                    <p id="btnForm" class="block">
+                        <button
+                        id="sendButton"
+                        type="submit"
+                        name="submit"
+                        value="submit"
+                        data-sendButton></button>
+                    </p>
+                </form>
+
+                <!-- Custom Alert for the form submission -->
+                <div id="customAlert" class="hidden">
+                    <p id="alertMessage"></p>
+                    <button id="closeAlert"><p data-closeAlert></p></button>
+                </div>
+            </div>
+
+            <div class="social">
+                <ul>
+                    <a href="https://www.linkedin.com/in/facundo-santana/" target="_blank"><i class="social-logo fa-brands fa-linkedin-in fa-3x"></i></a>
+
+                    <a href="https://github.com/Wayfarerdesert" target="_blank"><i class="social-logo fa-brands fa-github fa-3x"></i></a>
+
+                    <a id="emailMe" href="mailto:facundosantana.tm@gmail.com"><i class="social-logo fa-solid fa-envelope fa-3x"></i></a>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer------------------------------>
+    <section class="footer" class="sub-section">
+        <div class="row">
+            <div class="clock col-lg-1 col-md-2 offset-lg-0 offset-sm-5 col-3 d-none d-md-block" id="time"></div>
+
+            <footer class="col-lg-10 col-md-8 col-sm-12 col-12 offset-lg-0 offset-md-2 ">
+                <small><i data-developed></i><a href="#home"><strong> Facundo Santana</strong></a> © <span id="year"></span><span> | </span><i data-rights></i></small><br>
+                <small><i data-made></i><span style="color: #e25555;"> &hearts;</span><i data-place></i></small>
+            </footer>
+
+            <div class="col-md-2 col-3 d-none d-lg-block">
+                <div id="btnTop" class="btn_top"><a href="#home"><b><i class="fa-solid fa-arrow-up"></i></b></a></div>
+            </div>
+        </div>
+    </section>
+
+<!-- ============================================================ -->
+    <!-- Bootstrap ======================= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!-- Jquery =========================== -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <!-- JavaScript ======================= -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
