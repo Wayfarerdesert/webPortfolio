@@ -136,7 +136,7 @@
         {
             "name": "Weather App",
             "img": "weather-app",
-            "description": "This is a simple weather app built with Vanilla JavaScript using the Vite build tool.",
+            "description": "Simple weather app built with JavaScript using the Vite build tool.",
             "technologies": [
                 {
                     "name": "html5",
@@ -157,7 +157,7 @@
         {
             "name": "React To-Do App",
             "img": "to_do_app",
-            "description": "This is a simple To-Do List application built with React and Vite.js. The app allows users to create, save, and delete tasks as needed.",
+            "description": "To-do list app built with React and Vite.js. The application allows users to create, save and delete tasks.",
             "technologies": [
                 {
                     "name": "js",
@@ -174,7 +174,7 @@
         {
             "name": "iPhone Calculator",
             "img": "iphone-calculator",
-            "description": "This is a simple web calculator application designed to mimic the appearance and functionality of a calculator on an iPhone.",
+            "description": "Web calculator designed to mimic the look and functionality of the iPhone calculator.",
             "technologies": [
                 {
                     "name": "html5",
@@ -195,7 +195,7 @@
         {
             "name": "Desktop Calculator",
             "img": "py-calculator",
-            "description": "This is a simple calculator application built using Python and Tkinter.",
+            "description": "Simple desktop calculator built with Python and the Tkinter library.",
             "technologies": [
                 {
                     "name": "python",
@@ -208,7 +208,7 @@
         {
             "name": "Smart Tech",
             "img": "smart_tech",
-            "description": "Web application project to maximize efficient advertising impact",
+            "description": "Web application project designed to maximize advertising impact efficiently.",
             "technologies": [
                 {
                     "name": "js",

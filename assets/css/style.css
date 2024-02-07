@@ -176,7 +176,7 @@ nav ul a.active {
   nav {
     display: flex;
     flex-direction: column-reverse;
-    width: 100vh;
+    width: 100%;
   }
 
   ul.show {
@@ -477,13 +477,21 @@ h1 {
 }
 
 @media only screen and (max-width: 999px) {
+  #home {
+    padding-top: 0;
+  }
+
+  .home-text {
+    margin-left: 15vh;
+  }
+
   h1 {
     font-size: 70px;
   }
 
   .subtitle {
-    margin-left: auto;
-    font-size: 20px;
+    margin-left: 1em;
+    font-size: 30px;
   }
 
   .socialHome {
@@ -503,6 +511,10 @@ h1 {
 
   h1 {
     font-size: 60px;
+  }
+
+  .home-text {
+    margin-left: 10vh;
   }
 
   .home-text p {
@@ -559,7 +571,7 @@ h1 {
     margin-top: 0;
     overflow: hidden;
     height: 100vh;
-    padding-top: 180px;
+    padding-top: 150px;
   }
 
   .home-text p {
@@ -782,7 +794,7 @@ section {
   }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 915px) {
   .aboutSection p {
     padding: 0 5em;
   }
@@ -951,6 +963,11 @@ section {
 
   .clickedImg {
     transform: scale(1);
+  }
+
+  .card:hover {
+    background-color: var(--bgPortfolioCard);
+    transform: none;
   }
 }
 
