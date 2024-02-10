@@ -395,7 +395,10 @@ h1 {
   margin-left: 40px;
   padding: 0;
   font-size: var(--homeFontSize);
+}
 
+.animate__backInDown.animate__slower { /*  Home title Animation slow down*/
+  animation-duration: 1.6s;
 }
 
 /* home subtitle typing animation start here */
@@ -418,14 +421,18 @@ h1 {
 @keyframes typing-erasing {
 
   0%,
-  20%,
-  100% {
+  10% {
     width: 0;
   }
 
-  35%,
-  50% {
+  25%,
+  45% {
     width: 12.5ch;
+  }
+
+  60%,
+  100% {
+    width: 0;
   }
 }
 
@@ -436,6 +443,7 @@ h1 {
 }
 
 /* home subtitle typing animation ends here */
+
 .home-text {
   margin-left: 10vh;
   margin-top: 20vh;
@@ -881,10 +889,6 @@ section {
 
   #certificates {
     padding: 0 2em;
-  }
-
-  #certificates h4 {
-    /* margin: 0 .5em; */
   }
 
   .iframe-container {
