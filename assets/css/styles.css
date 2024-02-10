@@ -314,8 +314,7 @@ nav ul a.active {
   --bgBody: var(--bg_light);
   --bg: var(--bg_light);
   --fontColor: var(--textBlack);
-  --sectionBgDark: var(--bg_section);
-  --sectionBgLight: var(--bg_section);
+  --sectionBg: var(--bg_section);
   --headerBg: var(--bg_light);
   --navColor: var(--textBlack);
 
@@ -337,8 +336,7 @@ nav ul a.active {
   --bgBody: var(--bg_dark);
   --bg: var(--bg_dark);
   --fontColor: var(--textWhite);
-  --sectionBgDark: var(--bg_middleGrey);
-  --sectionBgLight: var(--bg_lightGrey);
+  --sectionBg: var(--bg_middleGrey);
   --headerBg: var(--bg_dark);
   --navColor: var(--textWhite);
 
@@ -598,24 +596,16 @@ h1 {
 
 /** MAIN SECTION ============================ */
 section {
-  background-color: var(--sectionBgDark);
-}
-
-.midle-section {
-  background-color: var(--sectionBgLight);
+  background-color: var(--sectionBg);
 }
 
 .sub-section {
   display: flex;
-  justify-content: space-around;
-  padding: 5em 0 0 0;
-  height: fit-content;
-}
-
-.sub-section-II {
-  display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: space-around;
+  padding-top: 5em;
+  height: fit-content;
+  /* text-align: center; */
 }
 
 .section-title {
@@ -627,6 +617,12 @@ section {
 }
 
 /** ABOUT =============================== */
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .portrait {
   width: 400px;
   margin: 0 auto;
@@ -637,24 +633,32 @@ section {
   align-items: center;
 }
 
+.aboutSection h4 {
+  margin-bottom: 1em;
+}
+
 .aboutSection p {
   margin: var(--section_p);
   text-align: left;
-  padding: 1em 4em;
+  /* padding: 1em 4em; */
 }
 
 .aboutWrapper p {
   margin: 2.5em 0 0 2em;
+  padding: 1em 4em;
 }
 
 .aboutSection p span {
   color: var(--textBlue);
 }
 
+.training {
+  padding: 1em 4em 0 0;
+}
+
 #education {
   display: block;
   text-align: left;
-  margin: 0 2em;
 }
 
 #education li {
@@ -735,15 +739,13 @@ section {
   #education {
     margin: 0;
   }
+
+  .aboutSection h4 {
+    margin: 0 0 0 1.5em;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
-  #about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .aboutSection {
     display: flex;
     flex-wrap: wrap;
@@ -768,6 +770,7 @@ section {
 
   .training {
     margin-top: 3em;
+    padding: 1em 0 0 0;
   }
 
   #education {
@@ -777,7 +780,6 @@ section {
 
   .aboutSection p {
     margin: 0;
-    padding: 0 5em;
   }
 
   .btn-cv {
@@ -790,6 +792,14 @@ section {
   .btn-cv:hover {
     background-color: var(--btn-cv);
     box-shadow: 0px 1px 8px var(--btn_shadow);
+  }
+
+  #certificates {
+    padding: 0 2em;
+  }
+
+  #certificates h4 {
+    margin: 0;
   }
 }
 
@@ -857,6 +867,7 @@ section {
     font-size: 25px;
     text-align: center;
     padding-top: 12px;
+    margin: 1em auto 0 auto;
     box-shadow: 0px 1px 8px var(--bg_dark);
     position: relative;
     cursor: pointer;
@@ -867,6 +878,18 @@ section {
     background-color: var(--btn-cv);
     box-shadow: 0px 1px 8px var(--btn_shadow);
   }
+
+  #certificates {
+    padding: 0 1em;
+  }
+
+  #certificates h4 {
+    margin: 0 .5em;
+  }
+
+  .iframe-container {
+    margin-top: 1em;
+  }
 }
 
 /** Portfolio =================================*/
@@ -874,6 +897,10 @@ section {
   display: block;
   min-height: 80vh;
   justify-content: center;
+}
+
+#portfolio h2 {
+  padding-top: 2em;
 }
 
 .portfolioWrapper {
@@ -948,6 +975,7 @@ section {
 @media only screen and (max-width: 1024px) {
   .portfolioWrapper {
     max-width: 90%;
+    padding-top: 2em;
   }
 
   .card>.technology-card {
@@ -1138,7 +1166,7 @@ section {
   }
 }
 
-/** CONTACTO ================================= */
+/** CONTACT ================================= */
 /* Formulario de contacto  */
 #contact {
   display: grid;

@@ -44,8 +44,8 @@
         <nav id="navbar">
             <ul id="navList">
                 <a href="#home" class="active" data-home></a>
-                <a href="#about" data-about></a>
                 <a href="#portfolio" data-portfolio></a>
+                <a href="#about" data-about></a>
                 <a href="#skillset" data-skillset></a>
                 <a href="#contact" data-contact></a>
             </ul>
@@ -82,46 +82,12 @@
         </div>
     </section>
 
-    <!-- Main Section  ------------------------->
-    <!-- About------------------------------>
-    <section id="about" class="sub-section-II">
-        <br>
-        <h2 id="dataAbout" class="section-title hidden" data-about></h2>
-        <div class="sub-section aboutSection">
-            <div class="aboutWrapper">
-                <!-- <p id="presentation"></p> -->
-                <p data-presentation></p>
-                <div class="portrait-container">
-                    <img class="portrait" loading="lazy" src="./assets/img/portrait.png" alt="Portrait">
-                    <div class="btn-cv"><a href="" target="_blank" title="facundoSantanaCV" data-resume></a><i class="fa-solid fa-download"></i>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <div class="training">
-                    <h4><strong data-training></strong> :</h4>
-                    <p id="education" data-education></p>
-                </div>
-                <div id="certificates">
-                    <h4><strong data-certifications></strong> :</h4>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2f170e4c-a89e-4339-a06c-ca084cb17008" data-share-badge-host="https://www.credly.com" style="border: none"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b8db0041-0401-4f07-a079-2618fb69fe15" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="29de32ec-a1d9-4650-9785-5009bd8786a1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="52e727b7-eac9-4201-871f-b42b5e567315" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1095a7b1-262e-4bfa-bd27-d25200f539d8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                </div>
-            </div>
-            <div class="btn-cvPhone"><a href="" target="_blank" title="facundoSantanaCV" data-resume-phone></a><i class="fa-solid fa-download"></i>
-            </div>
-        </div>
-    </section>
-
+    <!--? Main Section  ------------------------->
     <!-- PORTFOLIO -------------------------->
-    <section id="portfolio" class="sub-section">
+    <section id="portfolio">
         <h2 class="section-title hidden" data-portfolio></h2>
 
-        <div class="portfolioWrapper" data-project-card>
+        <div class="portfolioWrapper sub-section" data-project-card>
             <div class="card">
                 <h4>Portfolio fotográfico</h4>
 
@@ -161,8 +127,44 @@
         </div>
     </section>
 
+    <!-- ABOUT------------------------------>
+    <section id="about" class="sub-section">
+        <br>
+        <h2 id="dataAbout" class="section-title hidden" data-about></h2>
+        <div class=" aboutSection">
+            <div class="aboutWrapper">
+                <!-- <p id="presentation"></p> -->
+                <p data-presentation></p>
+                <div class="portrait-container">
+                    <img class="portrait" loading="lazy" src="./assets/img/portrait.png" alt="Portrait">
+                    <div class="btn-cv"><a href="" target="_blank" title="facundoSantanaCV" data-resume></a><i class="fa-solid fa-download"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="training">
+                    <h4><strong data-training></strong> :</h4>
+                    <p id="education" data-education></p>
+                </div>
+                <div id="certificates">
+                    <h4><strong data-certifications></strong> :</h4>
+                    <div class="iframe-container">
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2f170e4c-a89e-4339-a06c-ca084cb17008" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b8db0041-0401-4f07-a079-2618fb69fe15" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="29de32ec-a1d9-4650-9785-5009bd8786a1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="52e727b7-eac9-4201-871f-b42b5e567315" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1095a7b1-262e-4bfa-bd27-d25200f539d8" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-cvPhone"><a href="" target="_blank" title="facundoSantanaCV" data-resume-phone></a><i class="fa-solid fa-download"></i>
+            </div>
+        </div>
+    </section>
+
     <!-- SKILLSET------------------------------>
-    <section id="skillset" class="sub-section-II middle-section">
+    <section id="skillset" class="sub-section middle-section">
         <h2 class="section-title hidden" data-skillset></h2>
 
         <!-- skillsetContaier -->
