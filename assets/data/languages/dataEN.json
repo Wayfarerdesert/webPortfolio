@@ -240,7 +240,7 @@
             "name": "Name",
             "email": "email",
             "placeholder": "your@email.com",
-            "affair": "Affair",
+            "affair": "Subject",
             "message": "Message",
             "sendButton": "Send"
         }
