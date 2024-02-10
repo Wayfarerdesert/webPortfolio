@@ -880,15 +880,27 @@ section {
   }
 
   #certificates {
+    padding: 0 2em;
+  }
+
+  .iframe-container {
+    margin-top: 2em;
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  #certificates {
     padding: 0 1em;
   }
 
   #certificates h4 {
-    margin: 0 .5em;
+    margin-left: .6em;
   }
 
   .iframe-container {
-    margin-top: 1em;
+    margin-top: 2em;
+    padding-left: auto;
   }
 }
 
