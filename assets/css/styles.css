@@ -395,7 +395,10 @@ h1 {
   margin-left: 40px;
   padding: 0;
   font-size: var(--homeFontSize);
+}
 
+.animate__backInDown.animate__slower { /*  Home title Animation slow down*/
+  animation-duration: 1.6s;
 }
 
 /* home subtitle typing animation start here */
@@ -418,14 +421,18 @@ h1 {
 @keyframes typing-erasing {
 
   0%,
-  20%,
-  100% {
+  10% {
     width: 0;
   }
 
-  35%,
-  50% {
+  25%,
+  45% {
     width: 12.5ch;
+  }
+
+  60%,
+  100% {
+    width: 0;
   }
 }
 
@@ -436,6 +443,7 @@ h1 {
 }
 
 /* home subtitle typing animation ends here */
+
 .home-text {
   margin-left: 10vh;
   margin-top: 20vh;
@@ -996,6 +1004,17 @@ section {
     box-shadow: 0px 1px 8px var(--btn_shadow);
   }
 
+  #certificates {
+    padding: 0 2em;
+  }
+
+  .iframe-container {
+    margin-top: 2em;
+    padding-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 385px) {
   #certificates {
     padding: 0 2em;
   }
