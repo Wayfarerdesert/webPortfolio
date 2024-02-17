@@ -49,12 +49,11 @@
         </nav>
 
         <div id="config">
-            <div class="languages">
-                <p id="en" class="english" onclick="changeLanguage('en')">EN</p>
-                <p><span>|</span></p>
-                <p id="es" class="spanish" onclick="changeLanguage('es')">ES</p>
-            </div>
             <button onclick="changeTheme()" id="themeButton"></button>
+            <select class="languages">
+                <option id="es" class="spanish" onclick="changeLanguage('es')">ES</option>
+                <option id="en" class="english" onclick="changeLanguage('en')">EN</option>
+            </select>
         </div>
 
         <button class="hamburger" id="hamburger">

@@ -165,13 +165,6 @@ let projectCards; //the variant is initialized to store the data of each card x 
 // Function to change language
 function changeLanguage(language) {
     if (language !== currentLanguage) {
-        // Remove selectedLang class from all language elements
-        document.querySelectorAll('.languages p').forEach(element => {
-            element.classList.remove('selectedLang');
-        });
-
-        // Add selectedLang class to the clicked language element
-        document.getElementById(language).classList.add('selectedLang');
 
         currentLanguage = language;
         // Fetch the language data from the JSON file
