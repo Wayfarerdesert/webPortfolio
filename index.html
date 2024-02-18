@@ -50,9 +50,9 @@
 
         <div id="config">
             <button onclick="changeTheme()" id="themeButton"></button>
-            <select class="languages">
-                <option id="es" class="spanish" onclick="changeLanguage('es')">ES</option>
-                <option id="en" class="english" onclick="changeLanguage('en')">EN</option>
+            <select class="languages" onchange="changeLanguage(this.value)">
+                <option id="es" class="spanish">ES</option>
+                <option id="en" class="english">EN</option>
             </select>
         </div>
 
