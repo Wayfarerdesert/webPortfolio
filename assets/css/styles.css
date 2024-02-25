@@ -1048,14 +1048,6 @@ section {
   width: 70%;
 }
 
-.technology p {
-  text-align: center;
-  border: 2px solid white;
-  width: 30%;
-  padding: 5px;
-  margin-top: 40px;
-}
-
 /* technology-container ========================== */
 .technology-container {
   display: flex;

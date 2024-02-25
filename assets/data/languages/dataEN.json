@@ -204,6 +204,18 @@
             ],
             "code": "https://github.com/Wayfarerdesert/Calculator_Tk",
             "link": ""
+        },{
+            "name": "Snake Game",
+            "img": "py-snake",
+            "description": "Classic Snake game made with Python and the Tkinter library to create the graphical user interface (GUI).",
+            "technologies": [
+                {
+                    "name": "python",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/snake_v2",
+            "link": ""
         },
         {
             "name": "Smart Tech",
