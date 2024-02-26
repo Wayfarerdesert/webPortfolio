@@ -238,7 +238,7 @@ function updateContent(data) {
     let educationHTML = "";
     for (let i = 0; i < data.education.length; i++) {
         let education = data.education[i];
-        let itemHTML = "<li><strong>" + education.studyType + "</strong>" + " " + "<span>" + education.institution + "</span>" + " " + education.courses + "</li>";
+        let itemHTML = "<li class='item'><strong>" + education.studyType + "</strong>" + " " + "<span>" + education.institution + "</span>" + " " + "<i>" + education.courses + "</i>" + "</li>";
         educationHTML += itemHTML;
     }
     document.querySelector("[data-education]").innerHTML = educationHTML;
