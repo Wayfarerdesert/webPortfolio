@@ -196,7 +196,7 @@ nav ul a.active {
     margin: 0;
   }
 
-  a:hover {
+  #navList a:hover {
     color: var(--mainBlue);
     background-color: var(--navBg);
     transition: all 200ms linear;
@@ -766,7 +766,7 @@ section {
 
 .aboutWrapper p {
   margin: 2.5em 0 0 2em;
-  padding: 1em 4em;
+  padding: 2em 4em 0 4em;
 }
 
 .aboutSection p span {
@@ -775,17 +775,6 @@ section {
 
 .training {
   padding: 1em 4em 0 0;
-}
-
-#education {
-  /* display: block;
-  text-align: left;
-  color: var(--fontColor); */
-}
-
-#education li {
-  /* list-style: none;
-  padding-bottom: 15px; */
 }
 
 .item {
@@ -826,8 +815,30 @@ section {
   z-index: 0;
 }
 
+/* Certificates Styles */
 #certificates {
   margin-top: 2em;
+}
+
+.iframe-container {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.iframe-container a {
+  text-decoration: none;
+}
+
+.badge-logo {
+  width: 100px;
+  margin: 1.5em 1em 0 0;
+  filter: grayscale(100%) contrast(150%);
+  transition: filter .8s;
+}
+
+.badge-logo:hover {
+  filter: none;
 }
 
 .btn-cv a {
@@ -858,6 +869,19 @@ section {
 .btn-cvPhone {
   display: none;
 }
+
+/* center sections on large screens */
+@media only screen and (min-width: 1540px) {
+  .aboutWrapper {
+    margin-left: 10%;
+  }
+
+  .trainingWrapper {
+    margin-left: 10%;
+  }
+}
+
+/* center sections on large screens */
 
 @media only screen and (min-width: 1024px) {
   .aboutSection {
@@ -971,6 +995,10 @@ section {
   #certificates h4 {
     margin: 0;
   }
+
+  .badge-logo {
+    filter: none;
+  }
 }
 
 @media only screen and (max-width: 915px) {
@@ -1037,7 +1065,7 @@ section {
     font-size: 25px;
     text-align: center;
     padding-top: 12px;
-    margin: 1em auto 0 auto;
+    margin: 2.5em auto 0 auto;
     box-shadow: 0px 1px 8px var(--bg_dark);
     position: relative;
     cursor: pointer;
@@ -1055,33 +1083,11 @@ section {
 
   .iframe-container {
     margin-top: 2em;
-    padding-left: 5%;
-  }
-}
-
-@media only screen and (max-width: 385px) {
-  #certificates {
-    padding: 0 2em;
+    justify-content: center;
   }
 
-  .iframe-container {
-    margin-top: 2em;
-    padding-left: 5%;
-  }
-}
-
-@media only screen and (max-width: 385px) {
-  #certificates {
-    padding: 0 1em;
-  }
-
-  #certificates h4 {
-    margin-left: .6em;
-  }
-
-  .iframe-container {
-    margin-top: 2em;
-    padding-left: auto;
+  .badge-logo {
+    width: 85px;
   }
 }
 
