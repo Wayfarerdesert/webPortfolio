@@ -117,7 +117,7 @@
     ],
     "projects": [
         {
-            "name": "Portfolio fotográfico",
+            "name": "Portfolio Fotográfico",
             "img": "photo-portfolio",
             "description": "Un recorrido de mi trabajo fotográfico en diferentes areas.",
             "technologies": [
@@ -153,6 +153,34 @@
             ],
             "code": "https://github.com/Wayfarerdesert/weatherApp",
             "link": "https://weather-app-alpha-lilac-44.vercel.app/"
+        },{
+            "name": "Smart Tech",
+            "img": "smart_tech",
+            "description": "Aplicación web diseñado para maximizar el impacto publicitario de forma eficiente.",
+            "technologies": [
+                {
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
+                    "type": "brands"
+                },
+                {
+                    "name": "python",
+                    "type": "brands"
+                },
+                {
+                    "name": "node-js",
+                    "type": "brands"
+                },
+                {
+                    "name": "database",
+                    "type": "solid"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/Smart_Tech",
+            "link": "https://smart-tech-nine.vercel.app"
         },
         {
             "name": "React To-Do App",
@@ -215,35 +243,6 @@
                 }
             ],
             "code": "https://github.com/Wayfarerdesert/snake_v2",
-            "link": ""
-        },
-        {
-            "name": "Smart Tech",
-            "img": "smart_tech",
-            "description": "Proyecto de aplicación web diseñado para maximizar el impacto publicitario de forma eficiente.",
-            "technologies": [
-                {
-                    "name": "js",
-                    "type": "brands"
-                },
-                {
-                    "name": "react",
-                    "type": "brands"
-                },
-                {
-                    "name": "python",
-                    "type": "brands"
-                },
-                {
-                    "name": "node-js",
-                    "type": "brands"
-                },
-                {
-                    "name": "database",
-                    "type": "solid"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/Smart_Tech",
             "link": ""
         }
     ],

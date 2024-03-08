@@ -728,12 +728,21 @@ section {
   }
 
   .card p {
-    padding: .5em;
+    padding: 1em;
   }
 
   .card>.technology-card {
     padding: 2em .5em .5em .5em;
     width: auto;
+  }
+
+  .link-wrapper{
+    display: flex;
+    padding-left: 2em;
+  }
+
+  .card>.technology-card i {
+    margin-bottom: .3em;
   }
 }
 
