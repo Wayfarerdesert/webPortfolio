@@ -153,7 +153,8 @@
             ],
             "code": "https://github.com/Wayfarerdesert/weatherApp",
             "link": "https://weather-app-alpha-lilac-44.vercel.app/"
-        },{
+        },
+        {
             "name": "Smart Tech",
             "img": "smart_tech",
             "description": "Aplicación web diseñado para maximizar el impacto publicitario de forma eficiente.",
@@ -183,21 +184,43 @@
             "link": "https://smart-tech-nine.vercel.app"
         },
         {
-            "name": "React To-Do App",
-            "img": "to_do_app",
-            "description": "Aplicación de lista de tareas pendientes creada con React y Vite.js. La aplicación permite a los usuarios crear, guardar y eliminar tareas.",
+            "name": "Juego Tetris",
+            "img": "tetris",
+            "description": "Tetris, el icónico juego 2D, implementado utilizando Python junto con la biblioteca Pygame.",
             "technologies": [
                 {
-                    "name": "js",
-                    "type": "brands"
-                },
-                {
-                    "name": "react",
+                    "name": "python",
                     "type": "brands"
                 }
             ],
-            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
-            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
+            "code": "https://github.com/Wayfarerdesert/tetris",
+            "link": ""
+        },
+        {
+            "name": "Juego Snake",
+            "img": "py-snake",
+            "description": "Clásico juego Snake hecho con Python y la biblioteca Tkinter para crear la interfaz gráfica de usuario (GUI).",
+            "technologies": [
+                {
+                    "name": "python",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/snake_v2",
+            "link": ""
+        },
+        {
+            "name": "Calculadora de escritorio",
+            "img": "py-calculator",
+            "description": "Sencilla calculadora de escritorio creada con Python y la biblioteca Tkinter.",
+            "technologies": [
+                {
+                    "name": "python",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/Calculator_Tk",
+            "link": ""
         },
         {
             "name": "Calculadora iPhone",
@@ -221,29 +244,21 @@
             "link": "https://wayfarerdesert.github.io/Iphone_calculator/"
         },
         {
-            "name": "Calculadora de escritorio",
-            "img": "py-calculator",
-            "description": "Sencilla calculadora de escritorio creada con Python y la biblioteca Tkinter.",
+            "name": "React To-Do App",
+            "img": "to_do_app",
+            "description": "Aplicación de lista de tareas pendientes creada con React y Vite.js. La aplicación permite a los usuarios crear, guardar y eliminar tareas.",
             "technologies": [
                 {
-                    "name": "python",
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
                     "type": "brands"
                 }
             ],
-            "code": "https://github.com/Wayfarerdesert/Calculator_Tk",
-            "link": ""
-        },{
-            "name": "Juego Snake",
-            "img": "py-snake",
-            "description": "Clásico juego Snake hecho con Python y la biblioteca Tkinter para crear la interfaz gráfica de usuario (GUI).",
-            "technologies": [
-                {
-                    "name": "python",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/snake_v2",
-            "link": ""
+            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
+            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
         }
     ],
     "contactForm": [
