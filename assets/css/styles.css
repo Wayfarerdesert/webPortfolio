@@ -736,7 +736,7 @@ section {
     width: auto;
   }
 
-  .link-wrapper{
+  .link-wrapper {
     display: flex;
     padding-left: 2em;
   }
@@ -756,6 +756,8 @@ section {
 .portrait {
   width: 400px;
   margin: 0 auto;
+  mask-image: linear-gradient(black 95%,
+      transparent);
 }
 
 .portrait-container {
