@@ -134,6 +134,27 @@
             "link": "https://facundosantana.art"
         },
         {
+            "name": "NSF",
+            "img": "nsf",
+            "description": "Sitio web enfocado a la divulgación y realización de seminarios web y cursos relacionados al neurodesarrollo.",
+            "technologies": [
+                {
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "bootstrap",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
+                    "type": "brands"
+                }
+            ],
+            "code": "",
+            "link": "https://neurodesarrollosensoriomotor.site/"
+        },
+        {
             "name": "Aplicación del tiempo",
             "img": "weather-app",
             "description": "Sencilla aplicación meteorológica creada con JavaScript utilizando la herramienta de compilación Vite.",

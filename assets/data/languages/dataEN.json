@@ -134,6 +134,27 @@
             "link": "https://facundosantana.art"
         },
         {
+            "name": "NSF",
+            "img": "nsf",
+            "description": "Website focused on carrying out and impart webinars and courses related to neurodevelopment.",
+            "technologies": [
+                {
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "bootstrap",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
+                    "type": "brands"
+                }
+            ],
+            "code": "",
+            "link": "https://neurodesarrollosensoriomotor.site/"
+        },
+        {
             "name": "Weather App",
             "img": "weather-app",
             "description": "Simple weather app built with JavaScript using the Vite build tool.",
