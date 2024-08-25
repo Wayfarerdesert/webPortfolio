@@ -302,7 +302,7 @@ function renderProjectCard(cards) {
         });
 
         const codeLink = element.querySelector("[data-code]");
-        codeLink.href = card.code;
+        codeLink !== null ? (card.code !== "" ? codeLink.href = card.code : codeLink.style.display = "none") : null;
 
         const projectLink = element.querySelector("[data-link]");
         projectLink !== null ? (card.link !== "" ? projectLink.href = card.link : projectLink.style.display = "none") : null;
