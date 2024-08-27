@@ -15,7 +15,7 @@
   --bg_lightGrey: #4C636B;
 
   --bg_solid_light_section: #E8F2FB;
-  --bg_section_light: linear-gradient(90deg, rgba(238,243,247,1) 0%, rgba(237,243,249,1) 20%, rgba(236,244,251,1) 40%, rgba(232,242,251,1) 50%, rgba(236,244,251,1) 60%, rgba(237,243,249,1) 80%, rgba(238,243,247,1) 100%);
+  --bg_section_light: linear-gradient(90deg, rgba(238, 243, 247, 1) 0%, rgba(237, 243, 249, 1) 20%, rgba(236, 244, 251, 1) 40%, rgba(232, 242, 251, 1) 50%, rgba(236, 244, 251, 1) 60%, rgba(237, 243, 249, 1) 80%, rgba(238, 243, 247, 1) 100%);
   --bg_solid_dark_section: #3E4547;
   --bg_section_dark: linear-gradient(90deg, rgba(39, 43, 46, 1) 0%, rgba(48, 53, 55, 1) 20%, rgba(55, 59, 61, 1) 40%, rgba(52, 59, 62, 1) 50%, rgba(53, 60, 62, 1) 60%, rgba(48, 53, 55, 1) 80%, rgba(39, 43, 46, 1) 100%);
 
@@ -881,11 +881,6 @@ section {
   filter: none;
 }
 
-.btn-cv a {
-  color: var(--mainBlue);
-  text-decoration: none;
-}
-
 .btn-cv {
   width: 200px;
   height: 60px;
@@ -895,6 +890,7 @@ section {
   font-size: 25px;
   text-align: center;
   line-height: 60px;
+  text-decoration: none;
   position: relative;
   cursor: pointer;
   overflow: hidden;

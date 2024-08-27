@@ -222,11 +222,12 @@ function updateContent(data) {
     // Select Eng or Esp resume link
     if (aboutData) {
         const resumeLink = aboutData.link;
+        const resumeText = aboutData.resume;
 
         if (resumeLinkElement || resumeLinkElementPhone) {
-            resumeLinkElement.textContent = aboutData.resume;
+            resumeLinkElement.innerHTML = `${resumeText} <i class="fa-solid fa-download"></i>`;
             resumeLinkElement.setAttribute("href", resumeLink);
-            resumeLinkElementPhone.textContent = aboutData.resume;
+            resumeLinkElementPhone.innerHTML = `${resumeText} <i class="fa-solid fa-download"></i>`;
             resumeLinkElementPhone.setAttribute("href", resumeLink);
         } else {
             console.error("Element with data-resume not found");
