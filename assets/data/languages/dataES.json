@@ -205,6 +205,23 @@
             "link": "https://smart-tech-nine.vercel.app"
         },
         {
+            "name": "React To-Do App",
+            "img": "to_do_app",
+            "description": "Aplicación de lista de tareas pendientes creada con React y Vite.js. La aplicación permite a los usuarios crear, guardar y eliminar tareas.",
+            "technologies": [
+                {
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
+            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
+        },
+        {
             "name": "Juego Tetris",
             "img": "tetris",
             "description": "Tetris, el icónico juego 2D, implementado utilizando Python junto con la biblioteca Pygame.",
@@ -242,44 +259,6 @@
             ],
             "code": "https://github.com/Wayfarerdesert/Calculator_Tk",
             "link": ""
-        },
-        {
-            "name": "Calculadora iPhone",
-            "img": "iphone-calculator",
-            "description": "Calculadora web diseñada imitando la apariencia y funcionalidad de la calculadora de iPhone.",
-            "technologies": [
-                {
-                    "name": "html5",
-                    "type": "brands"
-                },
-                {
-                    "name": "css3-alt",
-                    "type": "brands"
-                },
-                {
-                    "name": "js",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/Iphone_calculator",
-            "link": "https://wayfarerdesert.github.io/Iphone_calculator/"
-        },
-        {
-            "name": "React To-Do App",
-            "img": "to_do_app",
-            "description": "Aplicación de lista de tareas pendientes creada con React y Vite.js. La aplicación permite a los usuarios crear, guardar y eliminar tareas.",
-            "technologies": [
-                {
-                    "name": "js",
-                    "type": "brands"
-                },
-                {
-                    "name": "react",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
-            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
         }
     ],
     "contactForm": [

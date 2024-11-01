@@ -205,6 +205,23 @@
             "link": "https://smart-tech-nine.vercel.app"
         },
         {
+            "name": "React To-Do App",
+            "img": "to_do_app",
+            "description": "To-do list app built with React and Vite.js. The application allows users to create, save and delete tasks.",
+            "technologies": [
+                {
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
+            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
+        },
+        {
             "name": "Tetris Game",
             "img": "tetris",
             "description": "Tetris, the iconic 2D game, implemented using Python along with the Pygame library.",
@@ -242,44 +259,6 @@
             ],
             "code": "https://github.com/Wayfarerdesert/Calculator_Tk",
             "link": ""
-        },
-        {
-            "name": "iPhone Calculator",
-            "img": "iphone-calculator",
-            "description": "Web calculator designed to mimic the look and functionality of the iPhone calculator.",
-            "technologies": [
-                {
-                    "name": "html5",
-                    "type": "brands"
-                },
-                {
-                    "name": "css3-alt",
-                    "type": "brands"
-                },
-                {
-                    "name": "js",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/Iphone_calculator",
-            "link": "https://wayfarerdesert.github.io/Iphone_calculator/"
-        },
-        {
-            "name": "React To-Do App",
-            "img": "to_do_app",
-            "description": "To-do list app built with React and Vite.js. The application allows users to create, save and delete tasks.",
-            "technologies": [
-                {
-                    "name": "js",
-                    "type": "brands"
-                },
-                {
-                    "name": "react",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
-            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
         }
     ],
     "contactForm": [
