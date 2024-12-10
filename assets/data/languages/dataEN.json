@@ -176,6 +176,27 @@
             "link": "https://weather-app-alpha-lilac-44.vercel.app/"
         },
         {
+            "name": "Open Movie",
+            "img": "openmovie",
+            "description": "Open source movie search engine that allows users to search for detailed information through the OMDb API.",
+            "technologies": [
+                {
+                    "name": "html5",
+                    "type": "brands"
+                },
+                {
+                    "name": "css3-alt",
+                    "type": "brands"
+                },
+                {
+                    "name": "js",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/openMovie",
+            "link": "https://open-movie.vercel.app/"
+        },
+        {
             "name": "Smart Tech",
             "img": "smart_tech",
             "description": "Web application project designed to maximize advertising impact efficiently.",
@@ -245,19 +266,6 @@
                 }
             ],
             "code": "https://github.com/Wayfarerdesert/snake_v2",
-            "link": ""
-        },
-        {
-            "name": "Desktop Calculator",
-            "img": "py-calculator",
-            "description": "Simple desktop calculator built with Python and the Tkinter library.",
-            "technologies": [
-                {
-                    "name": "python",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/Calculator_Tk",
             "link": ""
         }
     ],
