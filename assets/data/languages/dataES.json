@@ -176,6 +176,27 @@
             "link": "https://weather-app-alpha-lilac-44.vercel.app/"
         },
         {
+            "name": "Open Movie",
+            "img": "openmovie",
+            "description": "Buscador de películas open source que permite a los usuarios buscar información detallada utilizando la API de OMDb.",
+            "technologies": [
+                {
+                    "name": "html5",
+                    "type": "brands"
+                },
+                {
+                    "name": "css3-alt",
+                    "type": "brands"
+                },
+                {
+                    "name": "js",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/openMovie",
+            "link": "https://open-movie.vercel.app/"
+        },
+        {
             "name": "Smart Tech",
             "img": "smart_tech",
             "description": "Aplicación web diseñado para maximizar el impacto publicitario de forma eficiente.",
@@ -205,6 +226,23 @@
             "link": "https://smart-tech-nine.vercel.app"
         },
         {
+            "name": "React To-Do App",
+            "img": "to_do_app",
+            "description": "Aplicación de lista de tareas pendientes creada con React y Vite.js. La aplicación permite a los usuarios crear, guardar y eliminar tareas.",
+            "technologies": [
+                {
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
+            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
+        },
+        {
             "name": "Juego Tetris",
             "img": "tetris",
             "description": "Tetris, el icónico juego 2D, implementado utilizando Python junto con la biblioteca Pygame.",
@@ -229,57 +267,6 @@
             ],
             "code": "https://github.com/Wayfarerdesert/snake_v2",
             "link": ""
-        },
-        {
-            "name": "Calculadora de escritorio",
-            "img": "py-calculator",
-            "description": "Sencilla calculadora de escritorio creada con Python y la biblioteca Tkinter.",
-            "technologies": [
-                {
-                    "name": "python",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/Calculator_Tk",
-            "link": ""
-        },
-        {
-            "name": "Calculadora iPhone",
-            "img": "iphone-calculator",
-            "description": "Calculadora web diseñada imitando la apariencia y funcionalidad de la calculadora de iPhone.",
-            "technologies": [
-                {
-                    "name": "html5",
-                    "type": "brands"
-                },
-                {
-                    "name": "css3-alt",
-                    "type": "brands"
-                },
-                {
-                    "name": "js",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/Iphone_calculator",
-            "link": "https://wayfarerdesert.github.io/Iphone_calculator/"
-        },
-        {
-            "name": "React To-Do App",
-            "img": "to_do_app",
-            "description": "Aplicación de lista de tareas pendientes creada con React y Vite.js. La aplicación permite a los usuarios crear, guardar y eliminar tareas.",
-            "technologies": [
-                {
-                    "name": "js",
-                    "type": "brands"
-                },
-                {
-                    "name": "react",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
-            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
         }
     ],
     "contactForm": [

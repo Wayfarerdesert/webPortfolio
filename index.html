@@ -105,18 +105,27 @@
 
             <template id="card-template">
                 <div class="card">
-                    <h4 data-title></h4>
-
-                    <img data-img src="" alt="Img 1" class="img" onclick="toggleClickedImg(this)">
-                    <p data-description></p>
-
-                    <div class="technology-card">
-                        <div class="tech-wrapper">
-                            <i data-technologies></i>
-                        </div>
-                        <div class="link-wrapper">
-                            <a data-code href="" target="_blank"><i class="social-logo fa-brands fa-github fa-2x"></i></a>
-                            <a data-link href="" target="_blank"><i class="social-logo fa-solid fa-arrow-up-right-from-square fa-2x"></i></a>
+                    <div class="imgWrapper">
+                        <img data-img src="" alt="Img 1" class="img" onclick="toggleClickedImg(this)">
+                        <div class="projectDesc">
+                            <h4 data-title></h4>
+                            <p data-description></p>
+                            <!-- Technology Card -->
+                            <div class="technology-card">
+                                <div class="tech-wrapper">
+                                    <i data-technologies></i>
+                                </div>
+                                <div class="link-wrapper">
+                                    <a data-code href="" target="_blank">
+                                        <i class="social-logo fa-brands fa-github fa-2x"></i>
+                                        <span class="link-wrapper-desc">Code</span>
+                                    </a>
+                                    <a data-link href="" target="_blank">
+                                        <i class="social-logo fa-solid fa-arrow-up-right-from-square fa-2x"></i>
+                                        <span class="link-wrapper-desc">Preview</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

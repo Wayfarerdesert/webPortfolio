@@ -176,6 +176,27 @@
             "link": "https://weather-app-alpha-lilac-44.vercel.app/"
         },
         {
+            "name": "Open Movie",
+            "img": "openmovie",
+            "description": "Open source movie search engine that allows users to search for detailed information through the OMDb API.",
+            "technologies": [
+                {
+                    "name": "html5",
+                    "type": "brands"
+                },
+                {
+                    "name": "css3-alt",
+                    "type": "brands"
+                },
+                {
+                    "name": "js",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/openMovie",
+            "link": "https://open-movie.vercel.app/"
+        },
+        {
             "name": "Smart Tech",
             "img": "smart_tech",
             "description": "Web application project designed to maximize advertising impact efficiently.",
@@ -205,6 +226,23 @@
             "link": "https://smart-tech-nine.vercel.app"
         },
         {
+            "name": "React To-Do App",
+            "img": "to_do_app",
+            "description": "To-do list app built with React and Vite.js. The application allows users to create, save and delete tasks.",
+            "technologies": [
+                {
+                    "name": "js",
+                    "type": "brands"
+                },
+                {
+                    "name": "react",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
+            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
+        },
+        {
             "name": "Tetris Game",
             "img": "tetris",
             "description": "Tetris, the iconic 2D game, implemented using Python along with the Pygame library.",
@@ -229,57 +267,6 @@
             ],
             "code": "https://github.com/Wayfarerdesert/snake_v2",
             "link": ""
-        },
-        {
-            "name": "Desktop Calculator",
-            "img": "py-calculator",
-            "description": "Simple desktop calculator built with Python and the Tkinter library.",
-            "technologies": [
-                {
-                    "name": "python",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/Calculator_Tk",
-            "link": ""
-        },
-        {
-            "name": "iPhone Calculator",
-            "img": "iphone-calculator",
-            "description": "Web calculator designed to mimic the look and functionality of the iPhone calculator.",
-            "technologies": [
-                {
-                    "name": "html5",
-                    "type": "brands"
-                },
-                {
-                    "name": "css3-alt",
-                    "type": "brands"
-                },
-                {
-                    "name": "js",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/Iphone_calculator",
-            "link": "https://wayfarerdesert.github.io/Iphone_calculator/"
-        },
-        {
-            "name": "React To-Do App",
-            "img": "to_do_app",
-            "description": "To-do list app built with React and Vite.js. The application allows users to create, save and delete tasks.",
-            "technologies": [
-                {
-                    "name": "js",
-                    "type": "brands"
-                },
-                {
-                    "name": "react",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
-            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
         }
     ],
     "contactForm": [

@@ -312,12 +312,6 @@ function renderProjectCard(cards) {
     })
 }
 
-// Enlarge the size of the img of each card in the center of the screen onclick
-function toggleClickedImg(element) {
-    // Toggle the "clickedImg" class on the clicked image
-    element.classList.toggle("clickedImg");
-}
-
 // *FORM VALIDATION ++++++++++++++++++++++++++++
 // !CHECK FORM VALIDATION is not correct ===================================================
 // document.getElementById('sendButton').addEventListener('submit', function (event) {
