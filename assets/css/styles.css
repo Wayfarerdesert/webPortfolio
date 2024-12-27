@@ -746,6 +746,12 @@ section {
   color: var(--fontColor);
 }
 
+.tech-icon-svg {
+  width: 32px !important;
+  margin: 0 8px;
+  fill: var(--socialIcon) !important;
+}
+
 .technology-card a:hover,
 .technology-card a:hover i {
   color: var(--mainBlue);
