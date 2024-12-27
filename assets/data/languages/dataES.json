@@ -197,6 +197,23 @@
             "link": "https://open-movie.vercel.app/"
         },
         {
+            "name": "Pokedex",
+            "img": "pokedex",
+            "description": "Buscador web Pokémon que muestra detalles como estadísticas, habilidades e imágenes con una interfaz de usuario interactiva y responsiva.",
+            "technologies": [
+                {
+                    "name": "typescript",
+                    "type": "brands"
+                },
+                {
+                    "name": "nextjs",
+                    "type": "brands"
+                }
+            ],
+            "code": "https://github.com/Wayfarerdesert/pokedex",
+            "link": "https://pokedex-eta-black.vercel.app/"
+        },
+        {
             "name": "Smart Tech",
             "img": "smart_tech",
             "description": "Aplicación web diseñado para maximizar el impacto publicitario de forma eficiente.",
@@ -224,23 +241,6 @@
             ],
             "code": "https://github.com/Wayfarerdesert/Smart_Tech",
             "link": "https://smart-tech-nine.vercel.app"
-        },
-        {
-            "name": "React To-Do App",
-            "img": "to_do_app",
-            "description": "Aplicación de lista de tareas pendientes creada con React y Vite.js. La aplicación permite a los usuarios crear, guardar y eliminar tareas.",
-            "technologies": [
-                {
-                    "name": "js",
-                    "type": "brands"
-                },
-                {
-                    "name": "react",
-                    "type": "brands"
-                }
-            ],
-            "code": "https://github.com/Wayfarerdesert/React-Tasks-App",
-            "link": "https://wayfarerdesert.github.io/React-Tasks-App/"
         },
         {
             "name": "Juego Tetris",

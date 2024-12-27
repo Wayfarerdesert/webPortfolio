@@ -286,30 +286,50 @@ const projectCard = document.querySelector("[data-project-card]");
 const projectCardTemplate = document.getElementById("card-template")
 // Function to render the template for each project
 function renderProjectCard(cards) {
-    projectCard.innerHTML = ""
+    projectCard.innerHTML = "";
 
     cards.forEach(card => {
-        const element = projectCardTemplate.content.cloneNode(true)
+        const element = projectCardTemplate.content.cloneNode(true);
 
         element.querySelector("[data-title]").textContent = card.name;
         element.querySelector("[data-description]").textContent = card.description;
         element.querySelector("[data-img]").setAttribute("src", `./assets/img/portfolio/${card.img}.webp`);
 
         const techContainer = element.querySelector("[data-technologies]");
+        const icons = {
+            typescript: "./assets/img/icons/typescript.svg",
+            nextjs: "./assets/img/icons/nextjs.svg"
+        };
+
         card.technologies.forEach(tech => {
-            const icon = document.createElement("i");
-            icon.className = `fa-${tech.type} fa-${tech.name} fa-2x`;
-            techContainer.appendChild(icon)
+            if (icons[tech.name]) {
+                // Fetch and insert inline SVG
+                fetch(icons[tech.name])
+                    .then(response => response.text())
+                    .then(svgContent => {
+                        const svgWrapper = document.createElement("div");
+                        svgWrapper.innerHTML = svgContent;
+                        svgWrapper.firstChild.classList.add("tech-icon-svg");
+                        techContainer.appendChild(svgWrapper.firstChild);
+                    });
+            } else {
+                // Default FontAwesome icons
+                const icon = document.createElement("i");
+                icon.className = `fa-${tech.type} fa-${tech.name} fa-2x`;
+                techContainer.appendChild(icon);
+            }
         });
 
         const codeLink = element.querySelector("[data-code]");
         codeLink.href = card.code;
 
         const projectLink = element.querySelector("[data-link]");
-        projectLink !== null ? (card.link !== "" ? projectLink.href = card.link : projectLink.style.display = "none") : null;
+        projectLink !== null
+            ? (card.link !== "" ? (projectLink.href = card.link) : (projectLink.style.display = "none"))
+            : null;
 
-        projectCard.append(element)
-    })
+        projectCard.append(element);
+    });
 }
 
 // *FORM VALIDATION ++++++++++++++++++++++++++++
