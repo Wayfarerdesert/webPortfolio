@@ -157,6 +157,48 @@ function changeTheme() {
     }
 }
 
+// *HOME TYPING EFFECT ++++++++++++++++++++++++++++++++++++++++++++++++++
+let words = [];
+let wordIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+const typingSpeed = 150;
+const erasingSpeed = 100;
+const pauseBetweenWords = 2000;
+let typingTimeout = null;
+const initialDelay = 2200
+
+function type() {
+    const span = document.querySelector(".sub_animation");
+    const currentWord = words[wordIndex];
+
+    if (isDeleting) {
+        span.textContent = currentWord.substring(0, charIndex--);
+        if (charIndex < 0) {
+            isDeleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+            typingTimeout = setTimeout(type, 500);
+            return;
+        }
+        typingTimeout = setTimeout(type, erasingSpeed);
+    } else {
+        span.textContent = currentWord.substring(0, charIndex++);
+        if (charIndex > currentWord.length) {
+            isDeleting = true;
+            typingTimeout = setTimeout(type, pauseBetweenWords);
+            return;
+        }
+        typingTimeout = setTimeout(type, typingSpeed);
+    }
+
+    // Update CSS width dynamically
+    span.style.width = `${currentWord.length}ch`;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+    changeLanguage(changeLanguage)
+});
+
 // *READ JSON FROM JAVASCRIPT IN ABOUT SECTION +++++++++++++++++++++++++++++++++++
 // Dinamically update selected language
 let currentLanguage = "es"; // Set default language
@@ -209,6 +251,20 @@ function updateContent(data) {
     contactElements.forEach(element => {
         element.textContent = navBarData.dataContact;
     });
+
+    // ********************************************
+    // Home typing effect
+    if (typingTimeout) {
+        clearTimeout(typingTimeout);
+    }
+    words = Object.values(data.home[0]);
+    wordIndex = 0;
+    charIndex = 0;
+    isDeleting = false;
+    const span = document.querySelector("[data-words]");
+    span.textContent = "";
+    span.style.width = "0";
+    typingTimeout = setTimeout(type, initialDelay);
 
     // ********************************************
     //About

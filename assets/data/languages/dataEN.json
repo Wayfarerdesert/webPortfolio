@@ -8,6 +8,14 @@
             "dataContact": "Contact"
         }
     ],
+    "home": [
+        {
+            "word1": "Web Developer",
+            "word2": "Designer",
+            "word3": "Innovator",
+            "word4": "Creator"
+        }
+    ],
     "about": [
         {
             "presentation": "I entered the technological field in search of professional development in an innovative and dynamic environment. I face each challenge by adapting and acquiring new knowledge according to market needs.",

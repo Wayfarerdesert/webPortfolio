@@ -8,6 +8,14 @@
             "dataContact": "Contacto"
         }
     ],
+    "home": [
+        {
+            "word1": "Desarrollador Web",
+            "word2": "Diseñador",
+            "word3": "Innovador",
+            "word4": "Creador."
+        }
+    ],
     "about": [
         {
             "presentation": "Ingresé al ámbito tecnológico en busca de desarrollo profesional en un entorno innovador y dinámico. Afronto cada desafío adaptándome y adquiriendo nuevos conocimientos acorde a las necesidades de mercado.",

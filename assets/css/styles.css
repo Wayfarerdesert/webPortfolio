@@ -396,6 +396,7 @@ h1 {
   margin-left: 40px;
   padding: 0;
   font-size: var(--homeFontSize);
+  text-align: left !important;
 }
 
 .animate__backInDown.animate__slower {
@@ -407,35 +408,10 @@ h1 {
 .sub_animation {
   display: block;
   white-space: nowrap;
-  border-right: 5px solid;
-  width: 13ch;
+  min-height: 80px;
   overflow: hidden;
   color: var(--fontColor);
-  animation: typing-erasing 15000ms steps(76) infinite, blink 0.4s infinite step-end alternate;
-}
-
-.subtitle span {
-  overflow: hidden;
-  color: var(--fontColor);
-  animation: typing-erasing 15000ms steps(76) infinite, blink 0.4s infinite step-end alternate;
-}
-
-@keyframes typing-erasing {
-
-  0%,
-  10% {
-    width: 0;
-  }
-
-  25%,
-  45% {
-    width: 12.5ch;
-  }
-
-  60%,
-  100% {
-    width: 0;
-  }
+  animation: blink 0.4s infinite step-end alternate;
 }
 
 @keyframes blink {
